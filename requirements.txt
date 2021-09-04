@@ -1,0 +1,14 @@
+Pandas
+Numpy
+Matbplotlib
+Seaborn
+Sklearn
+skforecast
+Prophet
+sqlalchemy
+Bokeh
+mpld3
+joblib
+pdfkit
+geojs
+pygal

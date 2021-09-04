@@ -22,7 +22,7 @@ The architecture used for the development of the project was as follows:
 
 ![alt text](https://github.com/eljimenezj/Team_51_DS4A_2021/blob/main/Images/architecture.PNG?raw=true)
 
-##  Architecture 
+##  Video Presentation 
 
 ![alt text](https://github.com/eljimenezj/Team_51_DS4A_2021/blob/main/Images/video.PNG?raw=true)
 

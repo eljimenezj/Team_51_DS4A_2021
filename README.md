@@ -11,11 +11,11 @@ We were assigned to Dynamic Defense Solutions, a colombian company who wants to 
 ## Members 
 
 - Laura Milena Manrique Garzón.
-- [Edgar Leandro Jimenez.](https://www.linkedin.com/in/edgarleandrojimenez/)
+- Edgar Leandro Jimenez.
 - Juan Manuel Muskus.
-- [Arturo Quevedo.](https://www.linkedin.com/in/arturo-quevedo/)
+- Arturo Quevedo.
 - William Prieto.
-- [Juan Felipe Múnera Vergara](https://www.linkedin.com/in/jfmra99/).
+- Juan Felipe Múnera Vergara
 
 ![alt text](https://github.com/eljimenezj/Team_51_DS4A_2021/blob/main/Images/team51.PNG?raw=true)
 

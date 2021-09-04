@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+{% block head %}
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='engine1/style.css') }}" />
+<script type="text/javascript" src="{{ url_for('static',filename='engine1/jquery.js') }}"></script>
+<!-- End WOWSlider.com HEAD section -->
+{% endblock %}
+{% block content %}
+<div style="text-align: center;">
+<h2>Forecasting wind and solar energy for the Caribbean Coast</h2>
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+  <div class="ws_images"><ul>
+      <li><img src="{{ url_for('static',filename='data1/images/valledupar.jpg') }}" alt="Valledupar" title="Valledupar" id="wows1_0"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/ariguani.jpg') }}" alt="Ariguani" title="Ariguani" id="wows1_1"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/ayapel.jpg') }}" alt="Ayapel" title="Ayapel" id="wows1_2"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/banco.jpg') }}" alt="Banco" title="Banco" id="wows1_3"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/carmen.jpg') }}" alt="El Carmen de Bolivar" title="El Carmen de Bolivar" id="wows1_4"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/cartagena_.jpg') }}" alt="Cartagena" title="Cartagena" id="wows1_5"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/caucasia.jpg') }}" alt="Caucasia" title="Caucasia" id="wows1_6"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/cienaga.jpg') }}" alt="Cienaga" title="Cienaga" id="wows1_7"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/dibulla.jpg') }}" alt="Dibullá" title="Dibullá" id="wows1_8"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/monteria.jpg') }}" alt="Montería" title="Montería" id="wows1_9"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/necocli.jpg') }}" alt="Necocli" title="Necocli" id="wows1_10"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/pivijay.png') }}" alt="Pivijay" title="Pivijay" id="wows1_11"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/riohacha.jpg') }}" alt="Riohacha" title="Riohacha" id="wows1_12"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/sabana.jpg') }}" alt="Sabanalarga" title="Sabanalarga" id="wows1_13"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/sahagun.jpg') }}" alt="Sahagún" title="Sahagún" id="wows1_14"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/sampues.jpg') }}" alt="Sampues" title="Sampues" id="wows1_15"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/sanpedro.jpg') }}" alt="bootstrap image slider" title="San Pedro de Uraba" id="wows1_16"/></li>
+      <li><img src="{{ url_for('static',filename='data1/images/turbo.jpg') }}" alt="Turbo" title="Turbo" id="wows1_17"/></li>
+    </ul></div>
+    <div class="ws_bullets"><div>
+      <a href="#" title="Valledupar"><span><img src="{{ url_for('static',filename='data1/tooltips/valledupar.jpg') }}" alt="Valledupar"/>1</span></a>
+      <a href="#" title="Ariguani"><span><img src="{{ url_for('static',filename='data1/tooltips/ariguani.jpg') }}" alt="Ariguani"/>2</span></a>
+      <a href="#" title="Ayapel"><span><img src="{{ url_for('static',filename='data1/tooltips/ayapel.jpg') }}" alt="Ayapel"/>3</span></a>
+      <a href="#" title="Banco"><span><img src="{{ url_for('static',filename='data1/tooltips/banco.jpg') }}" alt="Banco"/>4</span></a>
+      <a href="#" title="El Carmen de Bolivar"><span><img src="{{ url_for('static',filename='data1/tooltips/carmen.jpg') }}" alt="El Carmen de Bolivar"/>5</span></a>
+      <a href="#" title="Cartagena"><span><img src="{{ url_for('static',filename='data1/tooltips/cartagena_.jpg') }}" alt="Cartagena"/>6</span></a>
+      <a href="#" title="Caucasia"><span><img src="{{ url_for('static',filename='data1/tooltips/caucasia.jpg') }}" alt="Caucasia"/>7</span></a>
+      <a href="#" title="Cienaga"><span><img src="{{ url_for('static',filename='data1/tooltips/cienaga.jpg') }}" alt="Cienaga"/>8</span></a>
+      <a href="#" title="Dibullá"><span><img src="{{ url_for('static',filename='data1/tooltips/dibulla.jpg') }}" alt="Dibullá"/>9</span></a>
+      <a href="#" title="Montería"><span><img src="{{ url_for('static',filename='data1/tooltips/monteria.jpg') }}" alt="Montería"/>10</span></a>
+      <a href="#" title="Necocli"><span><img src="{{ url_for('static',filename='data1/tooltips/necocli.jpg') }}" alt="Necocli"/>11</span></a>
+      <a href="#" title="Pivijay"><span><img src="{{ url_for('static',filename='data1/tooltips/pivijay.png') }}" alt="Pivijay"/>12</span></a>
+      <a href="#" title="Riohacha"><span><img src="{{ url_for('static',filename='data1/tooltips/riohacha.jpg') }}" alt="Riohacha"/>13</span></a>
+      <a href="#" title="Sabanalarga"><span><img src="{{ url_for('static',filename='data1/tooltips/sabana.jpg') }}" alt="Sabanalarga"/>14</span></a>
+      <a href="#" title="Sahagún"><span><img src="{{ url_for('static',filename='data1/tooltips/sahagun.jpg') }}" alt="Sahagún"/>15</span></a>
+      <a href="#" title="Sampues"><span><img src="{{ url_for('static',filename='data1/tooltips/sampues.jpg') }}" alt="Sampues"/>16</span></a>
+      <a href="#" title="San Pedro de Uraba"><span><img src="{{ url_for('static',filename='data1/tooltips/sanpedro.jpg') }}" alt="San Pedro de Uraba"/>17</span></a>
+      <a href="#" title="Turbo"><span><img src="{{ url_for('static',filename='data1/tooltips/turbo.jpg') }}" alt="Turbo"/>18</span></a>
+    </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="#"></a> </div>
+  <div class="ws_shadow"></div>
+  </div>	
+  <script type="text/javascript" src="{{ url_for('static',filename='engine1/wowslider.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static',filename='engine1/script.js') }}"></script>
+  <br>
+  <div class="row" style="padding: 10px;">
+    <b></b>
+    <p style="color: black;">Colombia’s Caribbean Coast has energy distribution and supply problems.Through the use of renewable energies, more people in this region could have a constant energy supply.</p>
+  </div>
+{% endblock %}

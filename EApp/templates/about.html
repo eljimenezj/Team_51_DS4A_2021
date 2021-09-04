@@ -1,0 +1,94 @@
+{% extends "layout.html" %}
+{% block content %}
+<!-- Header -->
+<header class="border border-info text-center py-2 mb-4">
+  <div class="container">
+    <h1 class="h1 text-black"><b>Meet the Team</b></h1>
+  </div>
+</header>
+
+<!-- Page Content -->
+<div class="container-fluid">
+</div>
+  <div class="card-columns mx-auto d-flex justify-content-center col-12">
+    <!-- Team Member 1 -->
+    <div class="card text-center col-3">
+      <div class="card border-0 shadow">
+        <img src="{{ url_for('static',filename='img/laura.jpg') }}" class="card-img-top" alt="...">
+        <div class="card-body text-center" style="padding: 1px 1px 3px 1px;">
+          <h5 class="card-title mb-0">Laura Manrique</h5>
+          <div class="card-text text-black-50">Bióloga</div>
+          <a href="mailto:manriquelaura2@gmail.com"><button class="btn btn-primary btn-sm"><i class="fa fa-envelope" aria-hidden="true"></i></button></a>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="card text-center col-3">
+      <div class="card border-0 shadow">
+        <img src="{{ url_for('static',filename='img/pp.jpg') }}" class="card-img-top" alt="...">
+        <div class="card-body text-center" style="padding: 1px 1px 3px 1px;">
+          <h5 class="card-title mb-0">Juan F. Múnera</h5>
+          <div class="card-text text-black-50">Estadístico</div>
+          <a href="mailto:jfmunrave@unal.edu.co"><button class="btn btn-primary btn-sm"><i class="fa fa-envelope" aria-hidden="true"></i></button></a>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="card text-center col-3">
+      <div class="card border-0 shadow">
+        <img src="{{ url_for('static',filename='img/edgar.jpg') }}" class="card-img-top" alt="...">
+        <div class="card-body text-center" style="padding: 1px 1px 3px 1px;">
+          <h5 class="card-title mb-0">Edgar Jimenez</h5>
+          <div class="card-text text-black-50">Ing. Administrador</div>
+          <a href="mailto:eljimenezj@gmail.com"><button class="btn btn-primary btn-sm"><i class="fa fa-envelope" aria-hidden="true"></i></button></a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+    </div>
+      <div class="card-columns mx-auto d-flex justify-content-center col-12">
+        <!-- Team Member 4 -->
+        <div class="card text-center col-3">
+          <div class="card border-0 shadow">
+        <img src="{{ url_for('static',filename='img/arturo.jpg') }}" class="card-img-top" alt="...">
+        <div class="card-body text-center" style="padding: 1px 1px 20px 1px;">
+          <h5 class="card-title mb-0">Daniel Quevedo</h5>
+          <div class="card-text text-black-50">Ing. de Sistemas</div>
+          <a href="mailto:wprietovelandia@gmail.com"><button class="btn btn-primary btn-sm"><i class="fa fa-envelope" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+    </div>
+  
+  <!-- Team Member 5 -->
+  <div class="card text-center col-3">
+    <div class="card border-0 shadow">
+      <img src="{{ url_for('static',filename='img/jmuskus.jpg') }}" class="card-img-top" alt="...">
+      <div class="card-body text-center" style="padding: 1px 1px 3px 1px;">
+        <h5 class="card-title mb-0">Juan M. Muskus</h5>
+        <div class="card-text text-black-50">Ing. de Sistemas</div>
+        <a href="mailto:juanmuskus@hotmail.com"><button class="btn btn-primary btn-sm"><i class="fa fa-envelope" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+  </div>
+
+<!-- Team Member 6 -->
+<div class="card text-center col-3">
+  <div class="card border-0 shadow">
+    <img src="{{ url_for('static',filename='img/willi.jpg') }}" class="card-img-top" alt="...">
+    <div class="card-body text-center" style="padding: 1px 1px 3px 1px;">
+      <h5 class="card-title mb-0">William F. Prieto</h5>
+      <div class="card-text text-black-50">Ing. Químico</div>
+      <a href="mailto:wprietovelandia@gmail.com"><button class="btn btn-primary btn-sm"><i class="fa fa-envelope" aria-hidden="true"></i></button></a>
+    </div>
+  </div>
+</div>
+
+  <!-- /.row -->
+</div>
+</div>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+{% endblock %}

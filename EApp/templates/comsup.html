@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-11">
+            <h2><b>Electricity consumption</b></h2>
+		</div>
+		<div class="col-md-1">
+            <form action="/pdf1" method="post">
+                <div class="form-group">
+                     <button class="btn btn-secondary btn-sm"><i class="fas fa-file-pdf"></i>&nbspPDF</button>
+                </div>    
+           </form>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-3" id="parent">
+                {% for table in etables %}
+                
+                {{ table|safe }}
+                {% endfor %}
+		</div>
+		<div class="col-md-9" style="padding: 0px;">
+            <iframe src="{{ url_for('graph1') }}" frameborder="0" id="iframe1"></iframe>
+        </div>
+	</div>
+	<div class="row">
+		<div class="col-md-9">
+            <iframe src="{{ url_for('graph2') }}" frameborder="0" id="iframe1"></iframe>
+		</div>
+		<div class="col-md-3">
+            {% for table in ttables %}
+            {{ table|safe }}
+            {% endfor %}
+		</div>
+	</div>
+</div>
+<style>
+ #t1 #t2{
+    font-size: 0.9em;
+ }
+ #t2 thead th, #t1 thead th{
+     text-align: center !important;
+     padding: 4px !important;
+     background-color: gainsboro;
+ }
+ #t2 tbody td, #t1 tbody td{
+     text-align: center !important;
+ }
+ #iframe1{
+     width: 100%;
+     height: 100%;
+ }
+</style>
+<script>
+    window.onload = function () {
+        var tble = document.getElementById('t1'); 
+        var tble2 = document.getElementById('t2'); 
+        var row = tble.rows;  
+        var row2 = tble2.rows;
+        var i = 0; 
+        for (var j = 0; j < row.length; j++) {
+            row[j].deleteCell(i);
+        }
+
+        for (var j = 0; j < row2.length; j++) {
+            row2[j].deleteCell(i);
+        }
+   };
+</script>
+{% endblock %}
+

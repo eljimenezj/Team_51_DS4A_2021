@@ -10,12 +10,12 @@ We were assigned to Dynamic Defense Solutions, a colombian company who wants to 
 
 ## Members 
 
-- Laura Milena Manrique Garzón.
-- Edgar Leandro Jimenez.
-- Juan Manuel Muskus.
-- Arturo Quevedo.
-- William Prieto.
-- Juan Felipe Múnera Vergara
+- Laura Milena Manrique Garzón. (email: manriquelaura2@gmail.com)
+- Edgar Leandro Jimenez. (email: eljimenezj@gmail.com)
+- Juan Manuel Muskus. (email: jmuskus@correo.unicordoba.edu.co)
+- Arturo Quevedo. (eamil: daquevedoa@gmail.com)
+- William Prieto. (email: wprietovelandia@gmail.com)
+- Juan Felipe Múnera Vergara (email: jfmra99@gmail.com)
 
 ![alt text](https://github.com/eljimenezj/Team_51_DS4A_2021/blob/main/Images/team51.PNG?raw=true)
 

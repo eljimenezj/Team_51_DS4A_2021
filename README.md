@@ -9,7 +9,7 @@ Repository of the Team-51 participating in the 5th cohort of Data Science for Al
 - Juan Manuel Muskus.
 - [Arturo Quevedo.](https://www.linkedin.com/in/arturo-quevedo/)
 - William Prieto.
-- - [Juan Felipe Múnera Vergara](https://www.linkedin.com/in/jfmra99/).
+- [Juan Felipe Múnera Vergara](https://www.linkedin.com/in/jfmra99/).
 
 ![alt text](https://github.com/eljimenezj/Team_51_DS4A_2021/blob/main/Images/team51.PNG?raw=true)
 
